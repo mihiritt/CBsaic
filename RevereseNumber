@@ -1,0 +1,20 @@
+#include<stdio.h> 
+int main() 
+{ 
+    int number; 
+    int FirstNum,SecondNum,ThirdNum,FourthNum,FivthNum; 
+    printf("Enter a five digit number : "); 
+    scanf("%d", &number); 
+  { 
+    FirstNum=number%10; 
+    number= number/10; 
+    SecondNum=number%10; 
+    number= number/10; 
+   ThirdNum=number%10; 
+   number= number/10; 
+   FourthNum=number%10; 
+   number= number/10; 
+   FivthNum=number%10; 
+ } 
+   printf("%d%d%d%d%d",FirstNum,SecondNum,ThirdNum,FourthNum,FivthNum); 
+  } 
